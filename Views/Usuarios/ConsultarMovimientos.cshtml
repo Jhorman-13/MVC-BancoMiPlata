@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Transaccione>
+
+@{
+    ViewData["Title"] = "Consultar Movimientos";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .table-container {
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        max-width: 800px;
+    }
+
+    .titulo {
+        margin-bottom: 20px;
+        color: #343a40;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    th {
+        background-color: #343a40;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+</style>
+
+<div class="table-container">
+    <h2 class="titulo">Movimientos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Tipo</th>
+                <th>Monto</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movimiento in Model)
+            {
+                <tr>
+                    <td>@movimiento.Fecha</td>
+                    <td>@movimiento.Tipo</td>
+                    <td>@movimiento.Monto</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="Menu" asp-route-id="@Model.FirstOrDefault()?.IdUsuario" class="btn btn-success">Volver al menú</a>
+</div>

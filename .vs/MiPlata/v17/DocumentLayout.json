@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\models\\transaccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:models\\transaccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\consultarsaldo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\consultarsaldo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\iniciar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\iniciar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\consultarmovimientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\consultarmovimientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\retirar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\retirar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\banco\\miplata\\views\\usuarios\\consignar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27B36BA-78A8-4651-ACCD-6B9EF546EAE7}|MiPlata.csproj|solutionrelative:views\\usuarios\\consignar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Consignar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Consignar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Consignar.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Consignar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Consignar.cshtml",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAQwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T04:40:25.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Retirar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Retirar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Retirar.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Retirar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Retirar.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAQwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T04:35:25.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultarSaldo.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\ConsultarSaldo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\ConsultarSaldo.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\ConsultarSaldo.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\ConsultarSaldo.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T04:33:08.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Registrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Registrar.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Registrar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Registrar.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T04:23:15.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:05:20.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transaccione.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Models\\Transaccione.cs",
+              "RelativeDocumentMoniker": "Models\\Transaccione.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Models\\Transaccione.cs",
+              "RelativeToolTip": "Models\\Transaccione.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:05:13.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAqwLMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:51:41.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Menu.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Menu.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAQwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T22:11:27.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T04:43:30.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsultarMovimientos.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\ConsultarMovimientos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\ConsultarMovimientos.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\ConsultarMovimientos.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\ConsultarMovimientos.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAQwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T22:39:46.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Iniciar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Iniciar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Iniciar.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\Banco\\MiPlata\\Views\\Usuarios\\Iniciar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Iniciar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T22:08:16.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

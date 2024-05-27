@@ -1,0 +1,124 @@
+﻿@model Transaccione
+
+@{
+    ViewData["Title"] = "Consignar Dinero";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .header, .footer {
+        background-color: #343a40;
+        color: white;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .form-container {
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        max-width: 500px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: #343a40;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .btn-primaryy {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primaryy:hover {
+            background-color: #0056b3;
+        }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        color: #007bff;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+
+        .back-link:hover {
+            color: #0056b3;
+        }
+
+    .error-messages {
+        margin-top: 20px;
+    }
+
+    .error-message {
+        color: red;
+        font-size: 14px;
+    }
+</style>
+
+<div class="form-container">
+    <h2>Consignar Dinero</h2>
+
+    <form asp-action="Consignar" method="post" class="transaction-form">
+        <div class="form-group">
+            <label class="form-label">Monto</label>
+            <input type="number" step="0.01" name="Monto" class="form-input" required />
+        </div>
+        <input type="hidden" name="IdUsuario" value="@Model.IdUsuario" /> <!-- Cambiado a "IdUsuario" -->
+        <input type="hidden" name="Tipo" value="Consignacion" />
+        <div class="form-group">
+            <button type="submit" class="btn btn-primaryy">Consignar</button>
+        </div>
+    </form>
+
+    <div class="error-messages">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p class="error-message">@error.ErrorMessage</p>
+        }
+    </div>
+
+    <a asp-action="Menu" asp-route-id="@Model.IdUsuario" class="back-link">Volver al menú</a>
+</div>

@@ -1,0 +1,58 @@
+﻿@model Usuario
+
+@{
+    ViewData["Title"] = "Consultar Saldo";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+
+    .login-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .titulo {
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #34495e;
+    }
+
+    .back-link {
+        display: inline-block;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+    }
+
+        .back-link:hover {
+            background-color: #2980b9;
+        }
+</style>
+
+<div class="login-container">
+
+    <h2 class="titulo">Saldo Actual</h2>
+    <p>Su saldo es: @ViewBag.Saldo</p>
+
+    <a class="back-link" asp-action="Menu" asp-route-id="@Model.IdUsuario">Volver al menú</a>
+
+</div>
